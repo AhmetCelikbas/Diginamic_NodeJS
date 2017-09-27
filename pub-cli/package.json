@@ -1,0 +1,18 @@
+{
+  "name": "pub-cli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "celikbas.ahmet@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "pub-services": "../pub-services"
+  },
+  "bin": {
+    "pub-cli": "bin/index.js"
+  },
+  "preferGlobal": true
+}
