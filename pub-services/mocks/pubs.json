@@ -23,5 +23,48 @@
         "name": "Triple Karmeliet"
       }
     ]
+  },
+  {
+    "name": "YoloPub",
+    "owner": {
+      "firstName": "Ahmet",
+      "lastName": "Celikbas",
+      "mail": "celikbas.ahmet@gmail.com"
+    },
+    "openDays": [
+      "Sunday"
+    ],
+    "openHours": {
+      "start": 11,
+      "end": 0
+    },
+    "beers": [
+      {
+        "type": "Brune",
+        "name": "Tabernakle"
+      }
+    ]
+  },
+  {
+    "name": "ChevrePub",
+    "owner": {
+      "firstName": "Ahmet",
+      "lastName": "Celikbas",
+      "mail": "celikbas.ahmet@gmail.com"
+    },
+    "openDays": [
+      "Sunday",
+      "Wednesday"
+    ],
+    "openHours": {
+      "start": 2,
+      "end": 3
+    },
+    "beers": [
+      {
+        "type": "Brune",
+        "name": "Tabernakle"
+      }
+    ]
   }
 ]
