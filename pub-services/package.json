@@ -9,10 +9,12 @@
   },
   "author": "celikbas.ahmet@gmail.com",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1"
+  },
   "devDependencies": {
     "chai": "^4.1.2",
-    "lodash": "^4.17.4",
     "mocha": "^3.5.3"
   }
 }
