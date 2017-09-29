@@ -14,8 +14,8 @@
       "Saturday"
     ],
     "openHours": {
-      "start": 10,
-      "end": 1
+      "start": 15,
+      "end": 16
     },
     "beers": [
       {
@@ -32,10 +32,11 @@
       "mail": "celikbas.ahmet@gmail.com"
     },
     "openDays": [
+      "Friday",
       "Sunday"
     ],
     "openHours": {
-      "start": 11,
+      "start": 15,
       "end": 0
     },
     "beers": [
@@ -54,11 +55,37 @@
     },
     "openDays": [
       "Sunday",
-      "Wednesday"
+      "Friday",
+      "Wednesday",
+      "Thursday"
     ],
     "openHours": {
-      "start": 2,
-      "end": 3
+      "start": 10,
+      "end": 22
+    },
+    "beers": [
+      {
+        "type": "Brune",
+        "name": "Tabernakle"
+      }
+    ]
+  },
+  {
+    "name": "BrebiePub",
+    "owner": {
+      "firstName": "Ahmet",
+      "lastName": "Celikbas",
+      "mail": "celikbas.ahmet@gmail.com"
+    },
+    "openDays": [
+      "Sunday",
+      "Friday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "openHours": {
+      "start": 13,
+      "end": 16
     },
     "beers": [
       {
