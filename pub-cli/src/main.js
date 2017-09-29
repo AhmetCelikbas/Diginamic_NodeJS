@@ -1,15 +1,17 @@
-var pubServices = require('pub-services');
+const pubServices = require('pub-services');
+const moment = require('moment');
 
 function getListPub() {
-    return pubServices.services.pubService.listerPubs();
+  return pubServices.services.pubService.listerPubs().then(listPub => listPub);
 }
 
 function getListPubsOuvertAujourdHui() {
-    return pubServices.services.pubService.listerPubsOuvertAujourdHui();
+  pubServices.services.pubService.listerPubsOuvertAujourdHui(moment.now())
+    .then(ListPubsOuvertAujourdHui => ListPubsOuvertAujourdHui);
 }
 
 
 module.exports = {
-    getListPub: getListPub,
-    getListPubsOuvertAujourdHui: getListPubsOuvertAujourdHui
+  getListPub,
+  getListPubsOuvertAujourdHui,
 };
