@@ -4,12 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "lint": "eslint . --ext .js"
   },
   "author": "celikbas.ahmet@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "commander": "^2.11.0",
+    "moment": "^2.18.1",
     "pub-services": "../pub-services"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.2",
+    "eslint-config-airbnb-base": "^12.0.1",
+    "eslint-plugin-import": "^2.7.0"
   },
   "bin": {
     "pub-cli": "bin/index.js"
